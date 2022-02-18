@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KyrylinDateLab01"
         mc:Ignorable="d"
-        Title="Birthday Checker" Height="250" Width="400">
+        MinHeight="270"
+        MinWidth="420"
+        Title="Birthday Checker" Height="270" Width="420">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
@@ -24,5 +27,6 @@
         <TextBlock Name="ZodiacOutput" Grid.Row="3" Grid.Column="0" Text="" FontSize="18" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5,5,5,2"></TextBlock>
         <TextBlock Name="ChineseZodiacOutput" Grid.Row="4" Grid.Column="0" Text="" FontSize="18" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5,5,5,2"></TextBlock>
         <Button Name="ExitChecker" Content="Exit" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="15,15,15,15" Click="ExitChecker_Click"></Button>
+        <TextBlock Name="Credits" Text="©Rick Neelee 2022"  Grid.Row="6" Grid.Column="0"  FontSize="12" HorizontalAlignment="Stretch" FontStyle="Italic" TextAlignment="Right" VerticalAlignment="Center" Margin="5,5,5,5"></TextBlock>
     </Grid>
 </Window>
