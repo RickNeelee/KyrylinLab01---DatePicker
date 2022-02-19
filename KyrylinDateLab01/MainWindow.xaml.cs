@@ -181,7 +181,7 @@ namespace KyrylinDateLab01
                 default: return "Unknown"; 
             }
         }
-
+        
         private void ExitChecker_Click(object sender, RoutedEventArgs e)
         {
             System.Environment.Exit(0);
