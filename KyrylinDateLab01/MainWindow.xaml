@@ -21,7 +21,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Name="BDayChooser" Grid.Row="0" Grid.Column="0" Text="Please choose your birthday:" FontSize="16" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5,5,5,2"></TextBlock>
+        <TextBlock Name="BDayChooser" Grid.Row="0" Grid.Column="0" Text="Please select your birthday:" FontSize="16" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5,5,5,2"></TextBlock>
         <DatePicker Name ="DateChoice" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" SelectedDateChanged="DateChoice_SelectedDateChanged" Margin="5,5,5,2"></DatePicker>
         <TextBlock Name="AgeOutput" Grid.Row="2" Grid.Column="0" Text="" FontSize="18" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5,5,5,2"></TextBlock>
         <TextBlock Name="ZodiacOutput" Grid.Row="3" Grid.Column="0" Text="" FontSize="18" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5,5,5,2"></TextBlock>

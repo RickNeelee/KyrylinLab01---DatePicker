@@ -35,7 +35,7 @@ namespace KyrylinDateLab01
             else if ((DateChoice.SelectedDate.Value.Day == DateTime.Today.Day) && (DateChoice.SelectedDate.Value.Month == DateTime.Today.Month))
             {
                 AgeOutput.Text = "Happy birthday! You're turning " + ageInYears.ToString() + " today!";
-
+             
                 ZodiacOutput.Text = "Your zodiac sign is " + GetZodiac(DateChoice.SelectedDate.Value);
 
                 ChineseZodiacOutput.Text = "Your Chinese zodiac is " + GetChineseZodiac(DateChoice.SelectedDate.Value);
